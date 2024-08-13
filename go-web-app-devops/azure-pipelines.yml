@@ -50,7 +50,7 @@ steps:
     installKubectl: true
 - task: HelmDeploy@1
   inputs:
-    azureSubscriptionForACR: 'Visual Studio Enterprise Subscription (e742faf7-99c3-46f9-9939-22d3f0e74d44)'
+    azureSubscriptionForACR: 'Visual Studio Enterprise Subscription
     azureResourceGroupForACR: 'akstest'
     azureContainerRegistry: 'devops8983.azurecr.io'
     command: 'package'
